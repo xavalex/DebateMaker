@@ -1,0 +1,21 @@
+# Exclude entire audio asset and generated output folders
+Speakers for training/
+Generated Debates/
+
+# Audio and generated timing tables anywhere in repo
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.csv
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS metadata
+Thumbs.db
+.DS_Store
